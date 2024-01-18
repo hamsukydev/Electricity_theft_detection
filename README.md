@@ -1,3 +1,34 @@
+## About Dataset
+## Overview
+The State Grid Corporation of China (SGCC) dataset with 1000 records was used in the
+model. This is a key resource in the field of power distribution and management, with a large and
+varied set of data about electricity transport and grid operations. This set of data contains a lot of
+different kinds of information, such as history and real-time data on energy use, grid
+infrastructure, the integration of green energy, and grid performance. It is a key part of making
+power distribution networks more reliable and efficient by helping with things like predicting
+demand, watching the grid, and finding problems. Researchers, energy providers, and law-
+makers can use this information to learn important things about electricity usage trends, the
+health of the grid, and the merging of green energy sources. This will help the electric power
+industry come up with new strategies and ideas that are based on data.
+
+## Description
+Electricity theft detection released by the State Grid Corporation of China (SGCC) dataset data set.csv contains 1037 columns and 42,372 rows for electric consumption from January first 2014 to 30 October 2016. SGCC data first column is consumer ID that is alphanumeric. Then from column 2 to columns 1036 daily electricity consumption is given. Last column named flag is the labels in 0 and 1 values. the small version of the dataset datasetsmall.csv only contains the electric consumption for January 2014.
+
+## Features
+'MM/DD/YYYY': The electric consumption on a given day .
+CONS_NO: Consumer Number stands for a customer ID of string type.
+FLAG: 0 indicating no theft and 1 for theft.
+
+## Useful for
+Binary Classification: The main intention of the dataset is for binary classification of electrical theft.
+Imbalanced Datasets Processing: Useful for exploring class balancing methods.
+Time Series Forecasting: Can be used for forecasting and predicting electrical consumption on a given day.
+
+## Notes
+This Dataset Contains missing values .
+This Dataset has dates of the form MM/DD/YYYY.
+This Dataset requires slight cleaning.
+
 ## THE PROPOSED SYSTEM ARCHITECTURE
 ### Introduction
  In conducting research, it is essential to conduct a systematic examination or survey of the existing system. This involves comprehending the processes, procedures, and key problem areas of the current system to precisely identify the tasks that need to be carried out and the appropriate methods for achieving them. This comprehensive understanding of the system's functioning is crucial for the researcher.
